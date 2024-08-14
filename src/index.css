@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-size: 62.5%;
+  line-height: 1;
+  width: 100%;
+  background-color: black;
+  margin: 0;
+}
+
+.nav-size {
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.input-box {
+  padding: 0.75rem;
+  width: 12.5rem;
+  background-color: #242525;
+}
+
+.subHeader-Detail {
+  width: 100vw;
+  height: 64px;
+}
+
+.subHeader-logo {
+  max-width: 148px;
+  max-height: 26px;
+}
+
+.subHeader-Detail .subheader-size {
+  font-size: 1.3em;
+  line-height: 1.6em;
+  font-family: inherit;
+  outline: 0;
+}
+
+.shadow-setup-over{
+  box-shadow: 5px 5px 15px 15px rgb(14, 13, 13);
+}
+
+.gradient-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgb(3, 3, 3) 5%, transparent 20%),
+    linear-gradient(to left, black 5%, transparent 20%),
+    linear-gradient(to top, black 20%, transparent 35%);
+  background-blend-mode: overlay;
+}
+
+.gradient-banner-sm {
+  background: linear-gradient(to right, rgb(3, 3, 3) 5%, transparent 20%),
+    linear-gradient(to left, black 5%, transparent 20%),
+    linear-gradient(to top, black 20%, transparent 75%);
+  background-blend-mode: overlay;
+}
+
+.gradient-overlay-sm {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgb(0, 0, 0) 2%, transparent 75%);
+  background-blend-mode: overlay;
+}
+
+/* .gradient-banner-sm {
+  background: linear-gradient(to top, rgb(0, 0, 0) 2%, transparent 75%);
+  background-blend-mode: overlay;
+} */
+
+.banner-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    to right,
+    black 0%,
+    transparent 0%,
+    transparent 90%,
+    black 100%
+  );
+}
+
+.movie_title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 640px) {
+  .sm-devices-uk{
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    left: 10px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .gradient-banner-sm {
+    background: linear-gradient(to top, rgb(0, 0, 0) 2%, transparent 75%);
+    background-blend-mode: overlay;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1280px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
